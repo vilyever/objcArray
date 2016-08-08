@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char objcArrayVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <objcArray/PublicHeader.h>
 
-
+#import <objcArray/NSMutableArray+VDQueue.h>
+#import <objcArray/NSMutableArray+VDStack.h>

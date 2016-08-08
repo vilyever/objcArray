@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE6409611D58191800652BAC /* objcArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6409601D58191800652BAC /* objcArray.h */; };
+		FE6409611D58191800652BAC /* objcArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6409601D58191800652BAC /* objcArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE6409681D58191800652BAC /* objcArray.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE64095D1D58191800652BAC /* objcArray.framework */; };
 		FE64096D1D58191800652BAC /* objcArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE64096C1D58191800652BAC /* objcArrayTests.m */; };
+		FE64097A1D58193900652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE6409771D58193900652BAC /* Cartfile */; };
+		FE64097B1D58193900652BAC /* objcArray.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE6409781D58193900652BAC /* objcArray.podspec */; };
+		FE64097F1D58196000652BAC /* NSMutableArray+VDQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = FE64097D1D58196000652BAC /* NSMutableArray+VDQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6409801D58196000652BAC /* NSMutableArray+VDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FE64097E1D58196000652BAC /* NSMutableArray+VDQueue.m */; };
+		FE6409831D58198000652BAC /* NSMutableArray+VDStack.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6409811D58198000652BAC /* NSMutableArray+VDStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6409841D58198000652BAC /* NSMutableArray+VDStack.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6409821D58198000652BAC /* NSMutableArray+VDStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,13 @@
 		FE6409671D58191800652BAC /* objcArrayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcArrayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE64096C1D58191800652BAC /* objcArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcArrayTests.m; sourceTree = "<group>"; };
 		FE64096E1D58191800652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6409771D58193900652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE6409781D58193900652BAC /* objcArray.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcArray.podspec; sourceTree = "<group>"; };
+		FE6409791D58193900652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE64097D1D58196000652BAC /* NSMutableArray+VDQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+VDQueue.h"; sourceTree = "<group>"; };
+		FE64097E1D58196000652BAC /* NSMutableArray+VDQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+VDQueue.m"; sourceTree = "<group>"; };
+		FE6409811D58198000652BAC /* NSMutableArray+VDStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+VDStack.h"; sourceTree = "<group>"; };
+		FE6409821D58198000652BAC /* NSMutableArray+VDStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+VDStack.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,9 @@
 				FE64095F1D58191800652BAC /* objcArray */,
 				FE64096B1D58191800652BAC /* objcArrayTests */,
 				FE64095E1D58191800652BAC /* Products */,
+				FE6409771D58193900652BAC /* Cartfile */,
+				FE6409781D58193900652BAC /* objcArray.podspec */,
+				FE6409791D58193900652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +89,10 @@
 			children = (
 				FE6409601D58191800652BAC /* objcArray.h */,
 				FE6409621D58191800652BAC /* Info.plist */,
+				FE64097D1D58196000652BAC /* NSMutableArray+VDQueue.h */,
+				FE64097E1D58196000652BAC /* NSMutableArray+VDQueue.m */,
+				FE6409811D58198000652BAC /* NSMutableArray+VDStack.h */,
+				FE6409821D58198000652BAC /* NSMutableArray+VDStack.m */,
 			);
 			path = objcArray;
 			sourceTree = "<group>";
@@ -93,6 +113,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE64097F1D58196000652BAC /* NSMutableArray+VDQueue.h in Headers */,
+				FE6409831D58198000652BAC /* NSMutableArray+VDStack.h in Headers */,
 				FE6409611D58191800652BAC /* objcArray.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +200,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE64097B1D58193900652BAC /* objcArray.podspec in Resources */,
+				FE64097A1D58193900652BAC /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6409801D58196000652BAC /* NSMutableArray+VDQueue.m in Sources */,
+				FE6409841D58198000652BAC /* NSMutableArray+VDStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
